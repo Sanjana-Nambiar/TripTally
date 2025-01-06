@@ -1,4 +1,4 @@
-# **Travel Budgeting Tool**
+# **TripTally: Travel Budgeting Tool**
 
 ## **Overview**
 
