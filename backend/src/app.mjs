@@ -9,6 +9,11 @@ import { Trip, User, Expense } from './db.mjs';
 import cors from 'cors';
 import mongoose from 'mongoose';
 import { SessionManager } from './session.mjs';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 const app = express();
 
